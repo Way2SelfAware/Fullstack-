@@ -1,0 +1,11 @@
+h1,h2 {
+    color: blue;
+    text-align: center;
+}
+
+img {
+    border: 3px;
+    margin: 5px 5px 5px 5px;
+    padding: 2px 3px 2px 3px;
+
+}

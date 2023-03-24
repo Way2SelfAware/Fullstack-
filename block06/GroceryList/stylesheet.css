@@ -1,0 +1,35 @@
+header{
+    font-size: 36pt;
+    text-align: center;
+    background-color: forestgreen;
+    border: transparent;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ol,ul{
+    width: 100px;
+    float: left;
+    border: transparent;
+    background-color: darkgrey;
+    font-size: 14pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+img{
+    width: 500px;
+    float: right;
+}
+#CS{
+    float: left;
+
+}
+#DGS{
+    float: left;
+}
+#VS{
+    float: left
+}
+#SS{
+    float: left;
+}
