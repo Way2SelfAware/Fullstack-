@@ -1,0 +1,87 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "Triangle Circle Square"
+        "Picture Picture Picture"
+        "Picture Picture Picture";
+    margin-left: 20%;
+}
+
+.Triangle {
+    grid-area: Triangle;
+}
+
+.Circle {
+    grid-area: Circle;
+}
+
+.Square {
+    grid-area: Square;
+}
+
+.Picture {
+    grid-area: Picture;
+}
+
+
+/*div {
+    border: solid
+}*/
+
+.Square {
+    width: 100px;
+    height: 100px;
+    background: White;
+}
+
+.Circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%
+}
+
+.Triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid Black;
+}
+
+.description {
+    color: white;
+    margin-left: 40%;
+    margin-top: 50%;
+}
+
+img {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+    z-index: -1;
+}
+
+body {
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white
+}
+
+/* On screens that are 1024px or less*/
+@media screen and (max-width: 1024px) {
+    body {
+        background-color: grey;
+    }
+}
+
+/* On screens that are 480px or less*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: blue;
+    }
+}
