@@ -1,0 +1,58 @@
+/* helps to set the layout */
+.flexbox-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    width: 50%;
+    float: left;
+
+}
+
+.flexbox-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: right;
+    width: 50%;
+    float: right;
+}
+
+
+/* placement for picture */
+.flexbox-item picture of me {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* placement for contact info */
+.flexbox-item contact me {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* placement for mission statement */
+.flexbox-item mission statement {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* placement for define me */
+.flexbox-item something that defines me {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/* styling for picture */
+.skylarpic {
+    height: 200px;
+}
+
+/* text styling for uniformity */
+div {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20pt;
+}
+
+/*  */

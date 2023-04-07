@@ -1,0 +1,14 @@
+tictacttoe {
+    display: grid;
+    justify-content: center;
+}
+
+#row1 {
+    display: inline-block;
+}
+
+#row2 {
+    float: left;
+}
+
+row3 {}

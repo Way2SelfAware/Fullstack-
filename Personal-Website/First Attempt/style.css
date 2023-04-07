@@ -1,0 +1,54 @@
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 24pt;
+    margin-left: 50%;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 32pt;
+    margin-left: 50%;
+
+}
+
+nav {
+    text-align: right;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 500px
+}
+
+#contact {
+    font-size: 50pt;
+    padding-right: 75%;
+    margin-left: 250px;
+}
+
+#twitter {
+    margin: 15px;
+}
+
+#linkedin {
+    margin: 15px;
+}
+
+#email {
+    margin: 15px;
+}
+
+#phone {
+    margin: 15px;
+}
